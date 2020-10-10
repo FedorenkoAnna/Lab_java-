@@ -23,5 +23,6 @@ public class Main{
         List<Car> resultList2 = result.getCarByYear(list);
         System.out.println("---------\n");
         List<Car> resultList2 = result.getCarByPrice(list);
+
     }
 }
