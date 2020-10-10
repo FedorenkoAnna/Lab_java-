@@ -6,6 +6,8 @@ public class CarChoose{
         for(Car car: cars){
             System.out.println(car);
         }
+
+
     }
 
     public static List<Car> getCarByCompany(List<Car> cars){
