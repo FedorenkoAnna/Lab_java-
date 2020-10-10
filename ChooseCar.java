@@ -8,6 +8,7 @@ public class CarChoose{
         }
     }
 
+
     public static List<Car> getCarsByMark(List<Car> cars){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the mark of the car you want to get");
