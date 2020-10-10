@@ -50,6 +50,7 @@ public class Car{
     }
 
     public void setYear(int year){
+
         this.year = year;
     }
     public void setColor(String color){
