@@ -17,7 +17,7 @@ public class Main{
         list.add(car3);
         list.add(car4);
 
-        Queries result = new Queries();
+        CarChoose result = new CarChoose();
         List<Car> resultList1 = result.getCarByCompany(list);
         System.out.println("---------\n");
         List<Car> resultList2 = result.getCarByYear(list);
