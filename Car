@@ -64,7 +64,6 @@ public class Car{
         this.register = register;
     }
 
-
     public String toString() {
         return "Car: " +
                 "id=" + id +
