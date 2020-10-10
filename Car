@@ -48,11 +48,9 @@ public class Car{
     public void setModel(String model){
         this.model = model;
     }
-
     public void setYear(int year){
         this.year = year;
     }
-
     public void setColor(String color){
         this.color = color;
     }
