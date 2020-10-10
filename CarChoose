@@ -8,7 +8,7 @@ public class CarChoose{
         }
     }
 
-    public static List<Car> getCarsByMark(List<Car> cars){
+    public static List<Car> getCarByCompany(List<Car> cars){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the mark of the car you want to get");
         String mark = scanner.nextLine();
@@ -23,7 +23,7 @@ public class CarChoose{
         return carList;
     }
 
-    public static List<Car> getCarsByYear(List<Car> cars){
+    public static List<Car> getCarByYear(List<Car> cars){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the model");
         String model = scanner.nextLine();
@@ -40,7 +40,7 @@ public class CarChoose{
         return carList;
     }
 
-    public static List<Car> getCarsByPrice(List<Car> cars){
+    public static List<Car> getCarByPrice(List<Car> cars){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the year of manufacture");
         Integer year = scanner.nextInt();
