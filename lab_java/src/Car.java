@@ -17,7 +17,6 @@ public class Car {
         this.price = price;
         this.register = register;
     }
-
     public int getId(){
         return id;
     }
