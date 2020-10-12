@@ -1,4 +1,4 @@
-public class Car{
+public class Car {
 
     private int id;
     private String company;
@@ -72,6 +72,7 @@ public class Car{
                 "year=" + year +'\'' +
                 "color=" + color + '\'' +
                 "price=" + price + '\'' +
-                "register" + register +'\''
+                "register" + register +'\'';
     }
 }
+

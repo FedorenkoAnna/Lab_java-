@@ -10,7 +10,7 @@ public class main{
         Car car3 = new Car(13, "Ford","GT350",2015,"white",130000.30,1575);
         Car car4 = new Car(14, "Honda","Civic 220",2020,"white",162000.20,5487);
 
-        List<Car> list = ArrayList<>();
+        List<Car> list = new ArrayList();
         list.add(car0);
         list.add(car1);
         list.add(car2);
@@ -22,6 +22,6 @@ public class main{
         System.out.println("---------\n");
         List<Car> resultList2 = result.getCarByYear(list);
         System.out.println("---------\n");
-        List<Car> resultList2 = result.getCarByPrice(list);
+        List<Car> resultList3 = result.getCarByPrice(list);
     }
 }
